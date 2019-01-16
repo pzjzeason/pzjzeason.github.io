@@ -34,7 +34,7 @@ kramdown:
     input: GFM # use Github Flavored Markdown !important
 
 # Disqus settings
-disqus_username: pzjzeason
+disqus_username: pzjzeason-blog
 
 # Duoshuo settings
 # duoshuo_username: pzjzeason
