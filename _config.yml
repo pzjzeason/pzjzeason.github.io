@@ -1,6 +1,6 @@
 # Site settings
-title: Pzjzeason's Blog
-SEOTitle: 彭子健的博客 | Pzjzeason's Blog
+title: pzjzeason's blog
+SEOTitle: pzjzeason's blog
 header-img: img/home-bg.jpg
 email: pzjzeason@gmail.com
 description: ""
@@ -55,5 +55,5 @@ sidebar-avatar: /img/avatar-pzj.jpg # use absolute URL, seeing it's used in both
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
-featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0 # A tag will be featured if the size of it is more than this condition value
 
