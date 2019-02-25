@@ -1,17 +1,49 @@
-<!DOCTYPE html>
-<html>
+---
+layout: movies
+title: 看电影么
+description: 好看的电影，要不刷新页面试试～
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
-</head>
-
-<body>
-    <h1>hhh</h1>
-</body>
-
-</html>
+<div class="post-preview">
+    <div class="movie-row" id='movie-0'>
+        <a class="title" target="_Blank"></a>
+        <div class="comment"></div>
+        <div class="intro"></div>
+    </div>
+    <div class="movie-row" id='movie-1'>
+        <a class="title" target="_Blank" ></a>
+        <div class="comment"></div>
+        <div class="intro"></div>
+    </div>
+    <div class="movie-row" id='movie-2'>
+        <a class="title" target="_Blank"></a>
+        <div class="comment"></div>
+        <div class="intro"></div>
+    </div>
+    <div class="movie-row" id='movie-3'>
+        <a class="title" target="_Blank"></a>
+        <div class="comment"></div>
+        <div class="intro"></div>
+    </div>
+    <div class="movie-row" id='movie-4'>
+        <a class="title" target="_Blank"></a>
+        <div class="comment"></div>
+        <div class="intro"></div>
+    </div>
+    <script src="/js/movies.js"></script>
+    <script>
+        function myAlert() {
+            for (let index = 0; index < 5; index++) {
+                let movie = movies[parseInt(Math.random() * movies.length)]
+                document.querySelector('#movie-' + index+'>a').innerHTML = movie.title
+                document.querySelector('#movie-' + index+'>a').setAttribute('href', movie.href)
+                if (movie.comment) {
+                    document.querySelector('#movie-' + index+' .comment').innerHTML = movie.comment
+                }
+                document.querySelector('#movie-' + index+' .intro').innerHTML = movie.intro
+            }
+        }
+        myAlert()
+    </script>
+</div>
+<hr>

@@ -1,0 +1,30 @@
+--- 
+--- 
+.movie-row {
+    color: darkgrey;
+    margin-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+
+    &:hover {
+        .title {
+            text-decoration: underline;
+            color: #0085a1;
+        }
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .comment {
+        color: gray;
+        margin: 10px 0 10px 0;
+        padding-left: 30px;
+        border-left: 3px solid darkgray;
+    }
+    
+}
+#movie-4 {
+    border-bottom: none;
+}
