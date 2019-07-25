@@ -1,0 +1,15 @@
+.search-wrp {
+    position: relative;
+}
+.search-input {
+    padding-left: 10px;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+
+.search-result {
+    position: absolute;
+}
