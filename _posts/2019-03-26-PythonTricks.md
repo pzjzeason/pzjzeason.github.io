@@ -30,7 +30,7 @@ from foo import *
 #### relative import
 参考stack overflow这个问题的高票[回答](https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time?rq=1)，太精彩了。
 
-```python
+```
 package/
     __init__.py
     subpackage1/
