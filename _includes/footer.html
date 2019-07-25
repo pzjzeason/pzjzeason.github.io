@@ -161,6 +161,6 @@ SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: '{{ site.url }}/search.json',
-    searchResultTemplate: '<div class="search-result"><a href="{{ site.url }}{url}">{title}</a></div>'
+    searchResultTemplate: '<div><a class="search-result" href="{{ site.url }}{url}">{title}</a></div>'
 })
 </script>

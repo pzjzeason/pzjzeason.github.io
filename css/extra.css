@@ -8,8 +8,27 @@
     border-radius: 10px;
     border: 1px solid #ccc;
     width: 150px;
+    background-color: rgba(0,0,0,0.2)
+}
+.search-input::placeholder {
+    color: #ddd;
+}
+.search-input:focus {
+    outline: none;
+}
+.search-result-wrp {
+    position: absolute;
+    width: 300px;
+    padding-left: 10px;
+    background-color: rgba(0,0,0,0.4);
 }
 
 .search-result {
-    position: absolute;
+    padding: 0 !important;
+    margin-bottom: 5px;
+    text-transform: none !important;
+
+}
+.search-result:hover {
+    cursor: pointer;
 }
