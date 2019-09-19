@@ -172,4 +172,6 @@ logging.info()
     handlers: [console]
     ```
 
-\[ \sum_{i=1}^n i\quad \prod_{i=1}^n \]
+{% raw %}
+  $$a^2 + b^2 = c^2$$
+{% endraw %}
