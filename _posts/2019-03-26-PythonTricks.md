@@ -172,6 +172,4 @@ logging.info()
     handlers: [console]
     ```
 
-```math
-\sum_{i=1}^n i\quad \prod_{i=1}^n
-```
+\[ \sum_{i=1}^n i\quad \prod_{i=1}^n \]
