@@ -171,3 +171,7 @@ logging.info()
     level: DEBUG
     handlers: [console]
     ```
+
+```math
+\sum_{i=1}^n i\quad \prod_{i=1}^n
+```
