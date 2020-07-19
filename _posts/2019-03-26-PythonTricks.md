@@ -5,7 +5,7 @@ date: 2019-03-26
 catalog: true
 header-img: img/programming.jpg
 tags:
-    - python
+    - Python
 ---
 ## 模块、包、导入
 #### module

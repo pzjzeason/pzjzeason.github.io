@@ -6,10 +6,6 @@
                 <p class="copyright text-muted">
                     <br>
                     This website is based on this <a href="https://github.com/Huxpro/huxpro.github.io">theme</a>
-                    |
-                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
-                        height="20px" src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true">
-                    </iframe>
                 </p>
             </div>
         </div>
@@ -154,13 +150,3 @@
     });
 </script>
 {% endif %}
-
-<script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
-<script>
-SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '{{ site.url }}/search.json',
-    searchResultTemplate: '<div><a class="search-result" href="{{ site.url }}{url}">{title}</a></div>'
-})
-</script>

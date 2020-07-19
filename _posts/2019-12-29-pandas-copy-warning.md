@@ -5,8 +5,7 @@ date: 2019-11-14
 catalog: true
 header-img: img/programming.jpg
 tags:
-    - python
-    - pandas
+    - Python
 ---
 
 利用pandas进行数据处理时，有时会碰到SettingWithCopyWarning这个警告，虽然不是错误但仍需非常小心，因为这样可能导致你没有预料到的结果。
